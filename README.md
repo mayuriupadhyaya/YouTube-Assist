@@ -5,7 +5,7 @@ YouTube Assit is a Chrome extension AI Chatbot for YouTube videos, built with Ty
 
 ## Features
 
-- Chat with Google's Gemini Pro in a pop-up window on any YouTube video page
+- Chat with Google's Gemini 1.5 Pro in a pop-up window on any YouTube video page
 - Runs entirely inside the browser
 - Simple chat interface inspired by instant messaging apps.
 - Use any prompt
