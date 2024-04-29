@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+
+  "name": "YouTube Assist: YouTube Chatbot powered by Gemini 1.5 pro",
+  "description": "A Chrome Extension for chatting with YouTube videos using LLMs.",
+  "version": "0.1",
+
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  
+  "permissions": ["storage", "activeTab", "declarativeContent", "scripting"],
+
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ]
+
+}
